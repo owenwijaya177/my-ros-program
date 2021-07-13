@@ -1,1 +1,17 @@
 # LIST YOUR APT PACKAGES HERE
+
+ros-noetic-rviz
+
+ros-noetic-rqt
+
+ros-noetic-rqt-tf-tree
+
+ros-noetic-rqt-common-plugins
+
+ros-noetic-image-geometry
+
+ros-noetic-tf2-geometry-msgs
+
+ros-noetic-gmapping
+
+ros-noetic-navigation
