@@ -13,8 +13,9 @@ dt-launchfile-init
 # NOTE: Use `dt-exec COMMAND` to run the main process (blocking process)
 
 # launching app
-dt-exec echo "This is an empty launch script. Update it to launch your application."
 
+rosrun tf static_transform_publisher 0 0 0 0 0 0 odom pensees/footprint 50
+roslaunch my_package gmapping.launch
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
