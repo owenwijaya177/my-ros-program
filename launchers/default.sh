@@ -14,8 +14,8 @@ dt-launchfile-init
 
 # launching app
 
-rosrun tf static_transform_publisher 0 0 0 0 0 0 odom pensees/footprint 50
-roslaunch my_package gmapping.launch
+dt-exec rosrun tf static_transform_publisher 0 0 0 0 0 0 odom pensees/footprint 50
+dt-exec roslaunch my_package gmapping.launch
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
